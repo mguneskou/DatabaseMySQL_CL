@@ -15,7 +15,7 @@ namespace DatabaseMySQL_CL
     public class ClsMysql
     {
         #region <-Fields->
-        string mDatabase = "training", mServer = "localhost", mPrt = "3306", mUID = "root", mPWD = "1059816";
+        string mDatabase = "training", mServer = "localhost", mPrt = "3306", mUID = "xxx", mPWD = "xxx";
         bool mWriteOnClose = true;
         string ConnectionString;
         MySqlConnection Connection;
